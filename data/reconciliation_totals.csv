@@ -1,0 +1,10 @@
+customer_id,provider,period_start,period_end_exclusive,billed_cost_usd,currency
+customer-001,AWS,2026-09-01,2026-10-01,576.00,USD
+customer-001,Azure,2026-09-01,2026-10-01,576.00,USD
+customer-001,GCP,2026-09-01,2026-10-01,633.60,USD
+customer-002,AWS,2026-09-01,2026-10-01,576.00,USD
+customer-002,Azure,2026-09-01,2026-10-01,576.00,USD
+customer-002,GCP,2026-09-01,2026-10-01,633.60,USD
+customer-003,AWS,2026-09-01,2026-10-01,576.00,USD
+customer-003,Azure,2026-09-01,2026-10-01,576.00,USD
+customer-003,GCP,2026-09-01,2026-10-01,633.60,USD

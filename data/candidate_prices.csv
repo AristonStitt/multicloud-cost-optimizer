@@ -1,0 +1,10 @@
+provider,region,machine_type,vcpu,memory_gib,architecture,hourly_price_usd,currency,pricing_model,is_synthetic
+AWS,us-east-1,demo-8vcpu-32gib,8,32,x86_64,0.40,USD,on_demand,True
+AWS,us-east-1,demo-4vcpu-16gib,4,16,x86_64,0.22,USD,on_demand,True
+AWS,us-east-1,demo-2vcpu-8gib,2,8,x86_64,0.12,USD,on_demand,True
+Azure,eastus,demo-8vcpu-32gib,8,32,x86_64,0.40,USD,on_demand,True
+Azure,eastus,demo-4vcpu-16gib,4,16,x86_64,0.22,USD,on_demand,True
+Azure,eastus,demo-2vcpu-8gib,2,8,x86_64,0.12,USD,on_demand,True
+GCP,us-central1,demo-8vcpu-32gib,8,32,x86_64,0.40,USD,on_demand,True
+GCP,us-central1,demo-4vcpu-16gib,4,16,x86_64,0.22,USD,on_demand,True
+GCP,us-central1,demo-2vcpu-8gib,2,8,x86_64,0.12,USD,on_demand,True

@@ -1,0 +1,19 @@
+customer_id,provider,account_id,resource_id,resource_name,region,service_category,environment,vcpu,memory_gib,machine_type,architecture,required_schedule_utc,pricing_model,commitment_coverage_pct,owner_team,max_cpu_p95_pct,max_memory_peak_pct
+customer-001,AWS,demo-aws-account-1,demo-aws-vm-1-1,oversized-1,us-east-1,Compute,production,8,32,demo-8vcpu-32gib,x86_64,24x7,on_demand,0,demo-platform,60,75
+customer-001,AWS,demo-aws-account-1,demo-aws-vm-1-2,busy-1,us-east-1,Compute,production,8,32,demo-8vcpu-32gib,x86_64,24x7,on_demand,0,demo-platform,60,75
+customer-001,Azure,demo-azure-account-1,demo-azure-vm-1-3,dev_schedule-1,eastus,Compute,development,8,32,demo-8vcpu-32gib,x86_64,Mon-Fri 09:00-17:00,on_demand,0,demo-platform,60,75
+customer-001,Azure,demo-azure-account-1,demo-azure-vm-1-4,missing_memory-1,eastus,Compute,production,8,32,demo-8vcpu-32gib,x86_64,24x7,on_demand,0,demo-platform,60,75
+customer-001,GCP,demo-gcp-account-1,demo-gcp-vm-1-5,spend_spike-1,us-central1,Compute,production,8,32,demo-8vcpu-32gib,x86_64,24x7,on_demand,0,demo-platform,60,75
+customer-001,GCP,demo-gcp-account-1,demo-gcp-vm-1-6,idle_review-1,us-central1,Compute,production,8,32,demo-8vcpu-32gib,x86_64,24x7,on_demand,0,demo-platform,60,75
+customer-002,AWS,demo-aws-account-2,demo-aws-vm-2-1,oversized-2,us-east-1,Compute,production,8,32,demo-8vcpu-32gib,x86_64,24x7,on_demand,0,demo-platform,60,75
+customer-002,AWS,demo-aws-account-2,demo-aws-vm-2-2,busy-2,us-east-1,Compute,production,8,32,demo-8vcpu-32gib,x86_64,24x7,on_demand,0,demo-platform,60,75
+customer-002,Azure,demo-azure-account-2,demo-azure-vm-2-3,dev_schedule-2,eastus,Compute,development,8,32,demo-8vcpu-32gib,x86_64,Mon-Fri 09:00-17:00,on_demand,0,demo-platform,60,75
+customer-002,Azure,demo-azure-account-2,demo-azure-vm-2-4,missing_memory-2,eastus,Compute,production,8,32,demo-8vcpu-32gib,x86_64,24x7,on_demand,0,demo-platform,60,75
+customer-002,GCP,demo-gcp-account-2,demo-gcp-vm-2-5,spend_spike-2,us-central1,Compute,production,8,32,demo-8vcpu-32gib,x86_64,24x7,on_demand,0,demo-platform,60,75
+customer-002,GCP,demo-gcp-account-2,demo-gcp-vm-2-6,idle_review-2,us-central1,Compute,production,8,32,demo-8vcpu-32gib,x86_64,24x7,on_demand,0,demo-platform,60,75
+customer-003,AWS,demo-aws-account-3,demo-aws-vm-3-1,oversized-3,us-east-1,Compute,production,8,32,demo-8vcpu-32gib,x86_64,24x7,on_demand,0,demo-platform,60,75
+customer-003,AWS,demo-aws-account-3,demo-aws-vm-3-2,busy-3,us-east-1,Compute,production,8,32,demo-8vcpu-32gib,x86_64,24x7,on_demand,0,demo-platform,60,75
+customer-003,Azure,demo-azure-account-3,demo-azure-vm-3-3,dev_schedule-3,eastus,Compute,development,8,32,demo-8vcpu-32gib,x86_64,Mon-Fri 09:00-17:00,on_demand,0,demo-platform,60,75
+customer-003,Azure,demo-azure-account-3,demo-azure-vm-3-4,missing_memory-3,eastus,Compute,production,8,32,demo-8vcpu-32gib,x86_64,24x7,on_demand,0,demo-platform,60,75
+customer-003,GCP,demo-gcp-account-3,demo-gcp-vm-3-5,spend_spike-3,us-central1,Compute,production,8,32,demo-8vcpu-32gib,x86_64,24x7,on_demand,0,demo-platform,60,75
+customer-003,GCP,demo-gcp-account-3,demo-gcp-vm-3-6,idle_review-3,us-central1,Compute,production,8,32,demo-8vcpu-32gib,x86_64,24x7,on_demand,0,demo-platform,60,75

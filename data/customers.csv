@@ -1,0 +1,4 @@
+customer_id,customer_name,reporting_currency,timezone,cross_cloud_migration_allowed,production_change_approval_required
+customer-001,Demo Cedar Retail,USD,UTC,False,True
+customer-002,Demo Harbor Analytics,USD,UTC,False,True
+customer-003,Demo Maple Learning,USD,UTC,False,True
